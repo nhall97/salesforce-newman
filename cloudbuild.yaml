@@ -8,3 +8,6 @@ steps:
   - name: node
     entrypoint: npm
     args: ['run', 'test-remote']
+  - name: node
+    entrypoint: npm
+    args: ['run', 'test-sfdx-newman-collection']
