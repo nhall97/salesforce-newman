@@ -1,0 +1,22 @@
+{
+  "name": "sfdx-newman-cicd",
+  "version": "1.0.0",
+  "description": "A way to run newman against a salesforce org during cicd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhall97/sfdx-newman-cicd.git"
+  },
+  "author": "Nathan Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhall97/sfdx-newman-cicd/issues"
+  },
+  "homepage": "https://github.com/nhall97/sfdx-newman-cicd#readme",
+  "dependencies": {
+    "newman": "^5.2.4"
+  }
+}
