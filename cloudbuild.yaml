@@ -1,7 +1,7 @@
 steps:
-  - name: node install
+  - name: node
     entrypoint: npm
     args: ['install']
-  - name: node test
+  - name: node
     entrypoint: npm
     args: ['test']
