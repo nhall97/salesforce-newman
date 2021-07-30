@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nathan.edward.hall97@gmail.com</contactEmail>
+    <label>Newman API</label>
+    <oauthConfig>
+        <callbackUrl>https://www.getpostman.com/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9od6vNol.eBh2GAKAtaSE.geoM.ZNRbOjrcuXiDZH6lTZTrX8bhsILvigFLCNtDyVBY_psqdzJbtw7IJJ</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
