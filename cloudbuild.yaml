@@ -4,7 +4,4 @@ steps:
     args: ['install']
   - name: node
     entrypoint: npm
-    args: ['list']
-  - name: node
-    entrypoint: newman
-    args: [run "https://www.getpostman.com/collections/8a0c9bc08f062d12dcda"]
+    args: ['list', 'test']
