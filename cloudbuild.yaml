@@ -7,4 +7,4 @@ steps:
     args: ['test']
   - name: node
     entrypoint: npm
-    args: [run test-remote]
+    args: ['run', 'test-remote']
