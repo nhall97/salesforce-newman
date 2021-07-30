@@ -1,3 +1,13 @@
 steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/$REPO_NAME', '.' ]
+  - name: node
+    entrypoint: npm
+    args: ['install']
+  - name: node
+    entrypoint: npm
+    args: ['list']
+  secretEnv: ['Newman_API_']
+  timeout: 300s
+availableSecrets:
+  secretManager:
+  - versionName: projects/164941353617/secrets/Newman_API_
+    env: 'Newman_API_'
