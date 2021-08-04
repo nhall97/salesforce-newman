@@ -34,3 +34,6 @@ You can use ./sfdx-newman to create a scratch org that contains the metadata for
 # Use the Cloudbuild yaml + package.json to run your cloudbuild
 Package.json contains dependencies and tests to run example newman builds
 Cloudbuild.yaml can setup your CI and execute the tests
+
+
+Adding a commit to trigger new CI configuration
